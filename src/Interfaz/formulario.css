@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid-izquierdo {
+    padding: 20px;
+  }
+  
+  .grid-derecho {
+    padding: 20px;
+  }
+  
+  .guardar-button {
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  .regresar-button {
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
